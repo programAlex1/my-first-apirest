@@ -39,7 +39,7 @@ public class UserController {
     public String eliminar(@PathVariable Long id) {
         boolean status = servicio.eliminar(id);
         if (status) {
-            return "El id:" + id + " Fue eliminado con exito";
+            return "El id:" + id + " fue eliminado con exito";
         } else {
             return "Error en elimar el id:" + id;
         }
