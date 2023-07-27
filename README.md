@@ -1,6 +1,8 @@
 # My-first-apirest
-# My first apirest in Spring Boot, it has the functionalities of a CRUD:
+# My first apirest in Spring Boot, it has the functionalities of a CRUD and others functionalities:
 -Get the list of users.
+
+-Get the list of users but set a limit on the number of registrations. 
 
 -Register new user.
 
