@@ -49,4 +49,8 @@ public class UserService {
     return userModel;
     }
     
+    public List<UserModel> findallwithlimit(int limite){
+        return repositorio.findallwithlimit(limite);
+    }
+    
 }
